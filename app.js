@@ -108,3 +108,48 @@
 //   let square = num * num;
 //   return square;
 // }
+
+// // Assignment-02
+// 01- Create two forms name and email and show their values in the console.
+// 02- Create three input forms labeled 'num1,' 'num2,' and 'operator.' Build a basic calculator by implementing the operations we covered in class.
+// 03- Create a dropdown menu containing options for each month. Implement a switch
+//  statement that determines the corresponding weather season based on the selected month.
+// For instance, if 'June' is chosen, display 'Summer'; if 'November' is selected, display 'Winter'.
+
+// Question-01 N
+// let namee = document.querySelector("#name");
+// let email = document.querySelector("#email");
+// function login() {
+//   console.log(namee.value);
+//   console.log(email.value);
+// }
+
+// Question-02 N
+
+// let num1 = document.querySelector("#number1");
+// let operator = document.querySelector("#math");
+// let num2 = document.querySelector("#number2");
+// let submit = document.querySelector("#button");
+// console.log(result);
+// // let calculate = number1,
+// //   math,
+// //   number2;
+
+// function calculate() {
+//   if (operator == "+") {
+//     let sum = num1.value + num2.value;
+//     console.log(sum);
+//   } else if (operator == "-") {
+//     let minus = num1.value - num2.value;
+//     console.log(minus);
+//   } else if (operator == "/") {
+//     let div = num1.value / num2.value;
+//     console.log(div);
+//   } else if (operator == "*") {
+//     let multiply = num1.value * num2.value;
+//     console.log(multiply);
+//   } else {
+//     console.log("not an operator");
+//   }
+//   return result;
+// }
