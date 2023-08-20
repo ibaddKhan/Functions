@@ -126,30 +126,77 @@
 
 // Question-02 N
 
-// let num1 = document.querySelector("#number1");
-// let operator = document.querySelector("#math");
-// let num2 = document.querySelector("#number2");
-// let submit = document.querySelector("#button");
-// console.log(result);
-// // let calculate = number1,
-// //   math,
-// //   number2;
-
 // function calculate() {
-//   if (operator == "+") {
-//     let sum = num1.value + num2.value;
-//     console.log(sum);
-//   } else if (operator == "-") {
-//     let minus = num1.value - num2.value;
-//     console.log(minus);
-//   } else if (operator == "/") {
-//     let div = num1.value / num2.value;
-//     console.log(div);
-//   } else if (operator == "*") {
-//     let multiply = num1.value * num2.value;
-//     console.log(multiply);
-//   } else {
-//     console.log("not an operator");
-//   }
-//   return result;
+
+//     const num1 = +document.querySelector("#number1").value;
+//     const operator = document.querySelector("#math").value;
+//     const num2 = +document.querySelector("#number2").value;
+//     const result = document.querySelector("#result")
+//     if (operator == "+") {
+//         result.value = num1 + num2
+//         result
+//     }
+//      else if (operator == "-"){
+//         result.value = num1 - num2;
+//     }
+//      else if (operator == "*"){
+//         result.value = num1 * num2;
+//     }
+//      else if (operator == "/"){
+//         result.value = num1 / num2;
+//     }else{
+//         document.querySelector("#result")= "Not an operator"
+//     }
 // }
+
+// Question-03 N
+function check() {
+  const monthss = document.querySelector("#Month").value
+  const resultt = document.querySelector("#input")
+
+  switch (monthss) {
+    case ("Jan"):
+      resultt.value = "Winter"
+      break;
+    case ("Feb"):
+      resultt.value = "Spring"
+      break;
+    case ("Mar"):
+      resultt.value = "Spring"
+      break;
+    case ("Apr"):
+      resultt.value = "Spring"
+      break;
+    case ("May"):
+      resultt.value = "Summer"
+      break;
+    case ("June"):
+      resultt.value = "Summer"
+      break;
+    case ("July"):
+      resultt.value = "Summer"
+      break;
+    case ("Aug"):
+      resultt.value = "Autumn"
+      break;
+    case ("Sep"):
+      resultt.value = "Autumn"
+      break;
+    case ("Oct"):
+      resultt.value = "Autumn"
+      break;
+    case ("Nov"):
+      resultt.value = "Winter"
+      break;
+    case ("Dec"):
+      resultt.value = "Winter"
+      break;
+
+    default:
+      alert("Select a Month first")
+      break;
+  }
+}
+
+
+
