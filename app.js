@@ -150,53 +150,103 @@
 // }
 
 // Question-03 N
-function check() {
-  const monthss = document.querySelector("#Month").value
-  const resultt = document.querySelector("#input")
+// function check() {
+//   const monthss = document.querySelector("#Month").value
+//   const resultt = document.querySelector("#input")
 
-  switch (monthss) {
-    case ("Jan"):
-      resultt.value = "Winter"
-      break;
-    case ("Feb"):
-      resultt.value = "Spring"
-      break;
-    case ("Mar"):
-      resultt.value = "Spring"
-      break;
-    case ("Apr"):
-      resultt.value = "Spring"
-      break;
-    case ("May"):
-      resultt.value = "Summer"
-      break;
-    case ("June"):
-      resultt.value = "Summer"
-      break;
-    case ("July"):
-      resultt.value = "Summer"
-      break;
-    case ("Aug"):
-      resultt.value = "Autumn"
-      break;
-    case ("Sep"):
-      resultt.value = "Autumn"
-      break;
-    case ("Oct"):
-      resultt.value = "Autumn"
-      break;
-    case ("Nov"):
-      resultt.value = "Winter"
-      break;
-    case ("Dec"):
-      resultt.value = "Winter"
-      break;
+//   switch (monthss) {
+//     case ("Jan"):
+//       resultt.value = "Winter"
+//       break;
+//     case ("Feb"):
+//       resultt.value = "Spring"
+//       break;
+//     case ("Mar"):
+//       resultt.value = "Spring"
+//       break;
+//     case ("Apr"):
+//       resultt.value = "Spring"
+//       break;
+//     case ("May"):
+//       resultt.value = "Summer"
+//       break;
+//     case ("June"):
+//       resultt.value = "Summer"
+//       break;
+//     case ("July"):
+//       resultt.value = "Summer"
+//       break;
+//     case ("Aug"):
+//       resultt.value = "Autumn"
+//       break;
+//     case ("Sep"):
+//       resultt.value = "Autumn"
+//       break;
+//     case ("Oct"):
+//       resultt.value = "Autumn"
+//       break;
+//     case ("Nov"):
+//       resultt.value = "Winter"
+//       break;
+//     case ("Dec"):
+//       resultt.value = "Winter"
+//       break;
 
-    default:
-      alert("Select a Month first")
-      break;
+//     default:
+//       alert("Select a Month first")
+//       break;
+//   }
+// }
+
+
+// Question = 1 New
+
+// Create an HTML file with a <p> element that has the id "myParagraph".
+// Using document.getElementById, select the paragraph element.
+// Change the text content of the paragraph to "Hello, DOM!"
+
+
+// Question = 2 New
+
+// Create an HTML file with a <div> element that has the id "myDiv".
+// Using document.getElementById, select the div element.
+// Change the background color of the div to "blue" when a button with the id "changeColorButton" is clicked.
+
+
+// // Question = 2 New
+
+// Create an HTML file with a <p> element that has the id "hiddenText" and is initially hidden (use the style attribute to set display: none;).
+// Using document.getElementById, select the paragraph element.
+// Create a button with the id "showTextButton".
+// When the button is clicked, change the style of the paragraph to make it visible.
+
+// Question = 1 New
+
+// function change() {
+//   const paragraph = document.getElementById("para")
+//   paragraph.innerHTML = "Hello Dom!"
+// }
+
+// Question = 2 New
+
+// function change() {
+//   // Question = 1 New
+//   const Para = document.getElementById("Div-White")
+//   if (Para.style.backgroundColor === "white") {
+//     Para.style.backgroundColor = "blue";
+//   } else {
+//     Para.style.backgroundColor = "white";
+
+//   }
+// }
+
+
+function Show() {
+  const Para = document.getElementById("Div")
+  if (Para.style.display === "none") {
+    Para.style.display = "block"
+  } else {
+    Para.style.display = "none"
   }
+
 }
-
-
-
